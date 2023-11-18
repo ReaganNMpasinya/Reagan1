@@ -1,0 +1,27 @@
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import './Footer.css';
+
+const Footer = () => {
+    return (
+        <footer className="App-footer">
+<Container> 
+ReaganMn form
+        <Row> 
+
+          <Column> 
+
+            <Heading>About Us</Heading> 
+
+            <FooterLink href="#">Aim</FooterLink> 
+
+            <FooterLink href="#">Vision</FooterLink> 
+
+            <FooterLink href="#">Testimonials</FooterLink> 
+
+          </Column> </Row> </container>
+
+            
+        </footer>
+    );
+};
